@@ -29,6 +29,7 @@ class ScreenHome extends StatelessWidget {
               //Top-Navigation-Bar
               TopNavigationBar(
                   width: width, height: height, touchNotifier: touchNotifier),
+
               //Spacer
               SizedBox(
                 height: height * 0.04,
@@ -42,26 +43,7 @@ class ScreenHome extends StatelessWidget {
                         ? USDConvertor(height: height, width: width)
                         : AllCountriesConvertor(height: height, width: width);
                   }),
-              // Convert Button
-              Padding(
-                padding: EdgeInsets.all(width * 0.02),
-                child: SizedBox(
-                    width: double.infinity,
-                    height: height * 0.05,
-                    child: ElevatedButton(
-                        style: ElevatedButton.styleFrom(
-                          backgroundColor:
-                              const Color.fromARGB(255, 80, 102, 230),
-                        ),
-                        onPressed: () {},
-                        child: const Text(
-                          'CONVERT',
-                          style: TextStyle(
-                              color: Colors.white,
-                              fontSize: 15.0,
-                              fontWeight: FontWeight.bold),
-                        ))),
-              ),
+              
             ],
           ),
         ),
