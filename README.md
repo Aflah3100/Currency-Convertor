@@ -1,16 +1,37 @@
-# currency_convert
+# Flutter-Feed
 
-A new Flutter project.
+Currency Convertor built using flutter and open exchange rates API to convert currencies between multiple countries.
 
-## Getting Started
+## Technologies Used
 
-This project is a starting point for a Flutter application.
+- **Flutter:** The app is built using the Flutter framework, allowing for cross-platform compatibility.
+- **openexchangerates.org:** The app fetches rates of multiple countries from this API.
 
-A few resources to get you started if this is your first Flutter project:
+## Installation
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. **Clone the repository:**
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+   ```bash
+   git clone https://github.com/aflah3100/Currency-Convertor.git
+   
+2. **Navigate to the directory:**
+    ```bash
+    cd Currency-Convertor
+    ```
+    
+2. **Install dependencies:**
+
+    ```bash
+    flutter pub get
+    ```
+
+3. **Run the app:**
+
+    ```bash
+    flutter run
+    ```
+## Screenshots
+![Screenshot 1](screenshots/img-1.jpeg)
+![Screenshot 2](screenshots/img-2.jpeg)
+![Screenshot 3](screenshots/img-3.jpeg)
+
