@@ -1,5 +1,6 @@
+import 'package:currency_convert/screens/home_screen/widgets/all_countries_convertor.dart';
 import 'package:currency_convert/screens/home_screen/widgets/top_navigation_bar.dart';
-import 'package:currency_convert/screens/home_screen/widgets/convertors.dart';
+import 'package:currency_convert/screens/home_screen/widgets/usd_convertor.dart';
 import 'package:flutter/material.dart';
 
 class ScreenHome extends StatelessWidget {
@@ -43,7 +44,6 @@ class ScreenHome extends StatelessWidget {
                         ? USDConvertor(height: height, width: width)
                         : AllCountriesConvertor(height: height, width: width);
                   }),
-              
             ],
           ),
         ),
