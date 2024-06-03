@@ -31,7 +31,7 @@ Currency Convertor built using flutter and open exchange rates API to convert cu
     flutter run
     ```
 ## Screenshots
-![Screenshot 1](screenshots/img-1.jpeg)
-![Screenshot 2](screenshots/img-2.jpeg)
+![Screenshot 1](screenshots/img-1)
+![Screenshot 2](screenshots/img-2)
 ![Screenshot 3](screenshots/img-3.jpeg)
 
